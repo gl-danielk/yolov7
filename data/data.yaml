@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Date', 'Num_Amt', 'Payee', 'Written_Amt']
+
+roboflow:
+  workspace: cheque-field-detection
+  project: cheques-e36yu
+  version: 4
+  license: Public Domain
+  url: https://universe.roboflow.com/cheque-field-detection/cheques-e36yu/dataset/4
